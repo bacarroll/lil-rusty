@@ -1,0 +1,13 @@
+[package]
+name = "lil-testy"
+version = "0.1.0"
+authors = ["Bart Carroll"]
+edition = "2018"
+
+[lib]
+name = "lilmath"
+path = "src/lilmath.rs"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
